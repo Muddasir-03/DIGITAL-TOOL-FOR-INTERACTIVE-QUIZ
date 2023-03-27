@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: fit-content;
+    background:#222;
+    width: 100%;
+}
+.header{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 2%;
+    font-weight: bold;
+    color: aqua;
+    letter-spacing: 3px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.aboutproject{
+    width: 100%;
+    color: #fff;
+    padding: 30px 50px;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.aboutproject h3{
+    margin-top: 2%;
+    letter-spacing: 2px;
+    margin-bottom: 2%;
+    color: aqua;
+}
+
+
+/* --------------Responsive------------ */
+@media(max-width:700px){
+    .aboutproject{
+        padding: 22px 35px;
+    }
+}
+@media(max-width:500px){
+    .aboutproject{
+        padding: 12px 20px;
+        margin-top: 5%;
+    }
+    .header{
+        margin-top: 5%;
+        letter-spacing: 2px;
+        font-size: 32px;
+    }
+}
+
+
+
