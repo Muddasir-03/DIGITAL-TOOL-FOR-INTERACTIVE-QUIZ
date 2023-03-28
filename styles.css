@@ -9,6 +9,7 @@ body{
     background-attachment: fixed;
     background-position-y: -100px;
     width: 100%; 
+    height: fit-content;
 }
 .logo img{
    height: 110px;
@@ -91,18 +92,13 @@ body{
         background-position-y: 0px;
     }
 }
-@media(max-width:850px){
-    body{
-        height: 98vh;
-    }
-
-}
 @media(max-width:800px){
     .dept{
         font-size: 35px;
+        margin-top: 5%;
     }
     .nav{
-        margin-top: 7%;
+        margin-top: 8%;
     }
 }
 @media(max-width:750px){
@@ -118,6 +114,7 @@ body{
 @media(max-width:700px){
     .dept{
         font-size: 27px;
+        margin-top: 8%;
     }
     .dept h4{
         margin-top: 3%;
@@ -125,14 +122,11 @@ body{
     .mucname p{
         font-size: 27px;
     }
-    .dept p{
-        text-shadow: 1.5px 1.5px 1.5px #fff;
-    }
-}
-@media(max-width:650px){
     .nav{
         margin-top: 12%;
     }
+}
+@media(max-width:650px){
     .nav .about img{
         height: 110px;
         width: 110px;
@@ -162,9 +156,6 @@ body{
     .mucname p{
         font-size: 20px;
     }
-    .dept p{
-        text-shadow: 1px 1px 1px #fff;
-    }
     .logo img{
         height: 80px;
         width: 80px;
@@ -172,8 +163,8 @@ body{
     .mucname h5{
         font-size: 13px;
     }
-    .nav{
-        margin-top: 20%;
+    .dept{
+        margin-top: 16%;
     }
     .nav .about img{
         height: 90px;
@@ -187,16 +178,13 @@ body{
 }
 @media(max-width:460px){
     .dept{
-        font-size: 17px;
+        font-size: 24px;
     }
     .nav{
-        margin-top: 25%;
+        margin-top: 22%;
     }
 }
 @media(max-width:400px){
-    .dept{
-        font-size: 15px;
-    }
     .dept p{
         letter-spacing: 2px;
     }
@@ -209,8 +197,5 @@ body{
     }
     .mucname h5{
         font-size: 12px;
-    }
-    .nav{
-        margin-top: 35%;
     }
 }

@@ -33,6 +33,8 @@ body{
 
 
 /* --------------Responsive------------ */
+
+
 @media(max-width:700px){
     .aboutproject{
         padding: 22px 35px;
